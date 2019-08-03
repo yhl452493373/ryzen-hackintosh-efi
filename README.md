@@ -36,3 +36,17 @@ unknow:
 * front audio jack
 * microphone jack
 
+---
+
+BIOS(if you can find):
+* Spread Spectrum:AUTO
+* Serial:Disable
+* Parallel:Disable
+* XHCI:Enable
+* EHCI:Enable
+* Sata Mode:ACHI
+* IDE:Disable
+* IOMMU:Disable
+* Boot Mode:UEFI Only
+* CSM:Disable
+
