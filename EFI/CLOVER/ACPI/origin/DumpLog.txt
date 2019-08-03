@@ -1,0 +1,162 @@
+21:954  6:304  Found BIOS RSDP at F0010
+21:954  0:000  Printing ACPI tables from RSDP F0010 ...
+21:954  0:000   F0010: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+21:954  0:000    (Xsdt: DD50E0A0, Rsdt: DD50E028)
+21:954  0:000    DD50E0A0: 'XSDT', 'A M I', Rev: 1, Len: 196
+21:954  0:000    DD50E028: 'RSDT', 'A M I', Rev: 1, Len: 116
+21:954  0:000    Tables in Xsdt: 20
+21:954  0:000    0. DD515D18: 'FACP', 'A M I', Rev: 6, Len: 276
+21:954  0:000        (Dsdt: DD50E200, Facs: DD57AE00, XDsdt: DD50E200, XFacs: 0)
+21:954  0:000        DD50E200: 'DSDT', 'A M I', Rev: 2, Len: 31511
+21:955  0:000        DD57AE00: 'FACS', Ver: 2, Len: 64
+21:955  0:000    1. DD515E30: 'APIC', 'A M I', Rev: 3, Len: 350
+21:955  0:000    2. DD515F90: 'FPDT', 'A M I', Rev: 1, Len: 68
+21:955  0:000    3. DD515FD8: 'FIDT', 'A M I', Rev: 1, Len: 156
+21:955  0:000    4. DD516078: 'SSDT', 'CPUSSDT', Rev: 2, Len: 252
+21:955  0:000    5. DD516178: 'SSDT', 'AMD ALIB', Rev: 2, Len: 35992
+21:955  0:000    6. DD51EE10: 'SSDT', 'AMD AOD', Rev: 1, Len: 12824
+21:955  0:000    7. DD522028: 'MCFG', 'A M I', Rev: 1, Len: 60
+21:955  0:000    8. DD522068: 'HPET', 'A M I', Rev: 1, Len: 56
+21:955  0:000    9. DD5220A0: 'SSDT', 'FCHZP', Rev: 1, Len: 36
+21:955  0:000    10. DD5220C8: 'UEFI', 'A M I', Rev: 1, Len: 66
+21:955  0:000    11. DD522110: 'VFCT', 'A M I', Rev: 1, Len: 60548
+21:955  0:000    12. DD530D98: 'IVRS', 'AMD IVRS', Rev: 2, Len: 208
+21:955  0:000    13. DD530E68: 'CRAT', 'AMD CRAT', Rev: 1, Len: 3920
+21:955  0:000    14. DD531DB8: 'CDIT', 'AMD CDIT', Rev: 1, Len: 41
+21:955  0:000    15. DD531DE8: 'BGRT', 'A M I', Rev: 1, Len: 56
+21:955  0:000    16. DD531E20: 'SSDT', 'AmdTable', Rev: 1, Len: 7498
+21:955  0:000    17. DD533B70: 'SSDT', 'AMD PT', Rev: 1, Len: 191
+21:955  0:000    18. DD533C30: 'WSMT', 'A M I', Rev: 1, Len: 40
+21:955  0:000    19. DD533C58: 'SSDT', 'AmdTable', Rev: 1, Len: 4271
+21:955  0:000    Tables in Rsdt: 20
+21:955  0:000    0. DD50E178: 'FACP', 'A M I', Rev: 2, Len: 132
+21:955  0:000        (Dsdt: DD50E200, Facs: DD57ADC0)
+21:955  0:000        DD50E200: 'DSDT', 'A M I', Rev: 2, Len: 31511
+21:955  0:000        DD57ADC0: 'FACS', Ver: 0, Len: 64
+21:955  0:000    1. DD515E30: 'APIC', 'A M I', Rev: 3, Len: 350
+21:955  0:000    2. DD515F90: 'FPDT', 'A M I', Rev: 1, Len: 68
+21:955  0:000    3. DD515FD8: 'FIDT', 'A M I', Rev: 1, Len: 156
+21:955  0:000    4. DD516078: 'SSDT', 'CPUSSDT', Rev: 2, Len: 252
+21:955  0:000    5. DD516178: 'SSDT', 'AMD ALIB', Rev: 2, Len: 35992
+21:955  0:000    6. DD51EE10: 'SSDT', 'AMD AOD', Rev: 1, Len: 12824
+21:955  0:000    7. DD522028: 'MCFG', 'A M I', Rev: 1, Len: 60
+21:955  0:000    8. DD522068: 'HPET', 'A M I', Rev: 1, Len: 56
+21:955  0:000    9. DD5220A0: 'SSDT', 'FCHZP', Rev: 1, Len: 36
+21:955  0:000    10. DD5220C8: 'UEFI', 'A M I', Rev: 1, Len: 66
+21:955  0:000    11. DD522110: 'VFCT', 'A M I', Rev: 1, Len: 60548
+21:955  0:000    12. DD530D98: 'IVRS', 'AMD IVRS', Rev: 2, Len: 208
+21:955  0:000    13. DD530E68: 'CRAT', 'AMD CRAT', Rev: 1, Len: 3920
+21:955  0:000    14. DD531DB8: 'CDIT', 'AMD CDIT', Rev: 1, Len: 41
+21:955  0:000    15. DD531DE8: 'BGRT', 'A M I', Rev: 1, Len: 56
+21:955  0:000    16. DD531E20: 'SSDT', 'AmdTable', Rev: 1, Len: 7498
+21:955  0:000    17. DD533B70: 'SSDT', 'AMD PT', Rev: 1, Len: 191
+21:955  0:000    18. DD533C30: 'WSMT', 'A M I', Rev: 1, Len: 40
+21:955  0:000    19. DD533C58: 'SSDT', 'AmdTable', Rev: 1, Len: 4271
+21:955  0:000  Found UEFI Acpi 2.0 RSDP at DD50E000
+21:955  0:000  Saving ACPI tables from RSDP DD50E000 to EFI\CLOVER\ACPI\origin ...
+21:955  0:000   DD50E000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+22:017  0:061    (Xsdt: DD50E0A0, Rsdt: DD50E028)
+22:017  0:000    DD50E0A0: 'XSDT', 'A M I', Rev: 1, Len: 196 -> XSDT.aml
+22:078  0:061    DD50E028: 'RSDT', 'A M I', Rev: 1, Len: 116 -> RSDT.aml
+22:118  0:040    Tables in Xsdt: 20
+22:118  0:000    0. DD515D18: 'FACP', 'A M I', Rev: 6, Len: 276 -> FACP.aml
+22:158  0:039        (Dsdt: DD50E200, Facs: DD57AE00, XDsdt: DD50E200, XFacs: 0)
+22:158  0:000        DD50E200: 'DSDT', 'A M I', Rev: 2, Len: 31511 -> DSDT.aml
+22:194  0:036        DD57AE00: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+22:223  0:028    1. DD515E30: 'APIC', 'A M I', Rev: 3, Len: 350 -> APIC.aml
+22:255  0:031    2. DD515F90: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+22:289  0:034    3. DD515FD8: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
+22:321  0:032    4. DD516078: 'SSDT', 'CPUSSDT', Rev: 2, Len: 252 -> SSDT-0-CPUSSDT.aml
+22:350  0:028    5. DD516178: 'SSDT', 'AMD ALIB', Rev: 2, Len: 35992 -> SSDT-1-AMD ALIB.aml
+22:383  0:032    6. DD51EE10: 'SSDT', 'AMD AOD', Rev: 1, Len: 12824 -> SSDT-2-AMD AOD.aml
+22:415  0:032    7. DD522028: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+22:444  0:028    8. DD522068: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+22:488  0:043    9. DD5220A0: 'SSDT', 'FCHZP', Rev: 1, Len: 36 -> SSDT-3-FCHZP.aml
+22:522  0:033    10. DD5220C8: 'UEFI', 'A M I', Rev: 1, Len: 66 -> UEFI.aml
+22:554  0:032    11. DD522110: 'VFCT', 'A M I', Rev: 1, Len: 60548 -> VFCT.aml
+22:587  0:032    12. DD530D98: 'IVRS', 'AMD IVRS', Rev: 2, Len: 208 -> IVRS.aml
+22:616  0:028    13. DD530E68: 'CRAT', 'AMD CRAT', Rev: 1, Len: 3920 -> CRAT.aml
+22:650  0:034    14. DD531DB8: 'CDIT', 'AMD CDIT', Rev: 1, Len: 41 -> CDIT.aml
+22:682  0:032    15. DD531DE8: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
+22:715  0:032    16. DD531E20: 'SSDT', 'AmdTable', Rev: 1, Len: 7498 -> SSDT-4-AmdTable.aml
+22:753  0:037    17. DD533B70: 'SSDT', 'AMD PT', Rev: 1, Len: 191 -> SSDT-5-AMD PT.aml
+22:793  0:039    18. DD533C30: 'WSMT', 'A M I', Rev: 1, Len: 40 -> WSMT.aml
+22:825  0:031    19. DD533C58: 'SSDT', 'AmdTable', Rev: 1, Len: 4271 -> SSDT-6-AmdTable.aml
+22:855  0:030    Tables in Rsdt: 20
+22:855  0:000    0. DD50E178: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+22:884  0:028        (Dsdt: DD50E200, Facs: DD57ADC0)
+22:884  0:000        DD50E200: 'DSDT', 'A M I', Rev: 2, Len: 31511
+22:885  0:000        DD57ADC0: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+22:923  0:038    1. DD515E30: 'APIC', 'A M I', Rev: 3, Len: 350
+22:923  0:000    2. DD515F90: 'FPDT', 'A M I', Rev: 1, Len: 68
+22:923  0:000    3. DD515FD8: 'FIDT', 'A M I', Rev: 1, Len: 156
+22:923  0:000    4. DD516078: 'SSDT', 'CPUSSDT', Rev: 2, Len: 252
+22:923  0:000    5. DD516178: 'SSDT', 'AMD ALIB', Rev: 2, Len: 35992
+22:923  0:000    6. DD51EE10: 'SSDT', 'AMD AOD', Rev: 1, Len: 12824
+22:923  0:000    7. DD522028: 'MCFG', 'A M I', Rev: 1, Len: 60
+22:923  0:000    8. DD522068: 'HPET', 'A M I', Rev: 1, Len: 56
+22:923  0:000    9. DD5220A0: 'SSDT', 'FCHZP', Rev: 1, Len: 36
+22:923  0:000    10. DD5220C8: 'UEFI', 'A M I', Rev: 1, Len: 66
+22:923  0:000    11. DD522110: 'VFCT', 'A M I', Rev: 1, Len: 60548
+22:923  0:000    12. DD530D98: 'IVRS', 'AMD IVRS', Rev: 2, Len: 208
+22:923  0:000    13. DD530E68: 'CRAT', 'AMD CRAT', Rev: 1, Len: 3920
+22:923  0:000    14. DD531DB8: 'CDIT', 'AMD CDIT', Rev: 1, Len: 41
+22:923  0:000    15. DD531DE8: 'BGRT', 'A M I', Rev: 1, Len: 56
+22:923  0:000    16. DD531E20: 'SSDT', 'AmdTable', Rev: 1, Len: 7498
+22:923  0:000    17. DD533B70: 'SSDT', 'AMD PT', Rev: 1, Len: 191
+22:923  0:000    18. DD533C30: 'WSMT', 'A M I', Rev: 1, Len: 40
+22:923  0:000    19. DD533C58: 'SSDT', 'AmdTable', Rev: 1, Len: 4271
+22:923  0:000  Found UEFI Acpi 1.0 RSDP at DD50E000
+22:923  0:000  Printing ACPI tables from RSDP DD50E000 ...
+22:923  0:000   DD50E000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+22:923  0:000    (Xsdt: DD50E0A0, Rsdt: DD50E028)
+22:923  0:000    DD50E0A0: 'XSDT', 'A M I', Rev: 1, Len: 196
+22:923  0:000    DD50E028: 'RSDT', 'A M I', Rev: 1, Len: 116
+22:923  0:000    Tables in Xsdt: 20
+22:923  0:000    0. DD515D18: 'FACP', 'A M I', Rev: 6, Len: 276
+22:923  0:000        (Dsdt: DD50E200, Facs: DD57AE00, XDsdt: DD50E200, XFacs: 0)
+22:923  0:000        DD50E200: 'DSDT', 'A M I', Rev: 2, Len: 31511
+22:924  0:000        DD57AE00: 'FACS', Ver: 2, Len: 64
+22:924  0:000    1. DD515E30: 'APIC', 'A M I', Rev: 3, Len: 350
+22:924  0:000    2. DD515F90: 'FPDT', 'A M I', Rev: 1, Len: 68
+22:924  0:000    3. DD515FD8: 'FIDT', 'A M I', Rev: 1, Len: 156
+22:924  0:000    4. DD516078: 'SSDT', 'CPUSSDT', Rev: 2, Len: 252
+22:924  0:000    5. DD516178: 'SSDT', 'AMD ALIB', Rev: 2, Len: 35992
+22:924  0:000    6. DD51EE10: 'SSDT', 'AMD AOD', Rev: 1, Len: 12824
+22:924  0:000    7. DD522028: 'MCFG', 'A M I', Rev: 1, Len: 60
+22:924  0:000    8. DD522068: 'HPET', 'A M I', Rev: 1, Len: 56
+22:924  0:000    9. DD5220A0: 'SSDT', 'FCHZP', Rev: 1, Len: 36
+22:924  0:000    10. DD5220C8: 'UEFI', 'A M I', Rev: 1, Len: 66
+22:924  0:000    11. DD522110: 'VFCT', 'A M I', Rev: 1, Len: 60548
+22:924  0:000    12. DD530D98: 'IVRS', 'AMD IVRS', Rev: 2, Len: 208
+22:924  0:000    13. DD530E68: 'CRAT', 'AMD CRAT', Rev: 1, Len: 3920
+22:924  0:000    14. DD531DB8: 'CDIT', 'AMD CDIT', Rev: 1, Len: 41
+22:924  0:000    15. DD531DE8: 'BGRT', 'A M I', Rev: 1, Len: 56
+22:924  0:000    16. DD531E20: 'SSDT', 'AmdTable', Rev: 1, Len: 7498
+22:924  0:000    17. DD533B70: 'SSDT', 'AMD PT', Rev: 1, Len: 191
+22:924  0:000    18. DD533C30: 'WSMT', 'A M I', Rev: 1, Len: 40
+22:924  0:000    19. DD533C58: 'SSDT', 'AmdTable', Rev: 1, Len: 4271
+22:924  0:000    Tables in Rsdt: 20
+22:924  0:000    0. DD50E178: 'FACP', 'A M I', Rev: 2, Len: 132
+22:924  0:000        (Dsdt: DD50E200, Facs: DD57ADC0)
+22:924  0:000        DD50E200: 'DSDT', 'A M I', Rev: 2, Len: 31511
+22:925  0:000        DD57ADC0: 'FACS', Ver: 0, Len: 64
+22:925  0:000    1. DD515E30: 'APIC', 'A M I', Rev: 3, Len: 350
+22:925  0:000    2. DD515F90: 'FPDT', 'A M I', Rev: 1, Len: 68
+22:925  0:000    3. DD515FD8: 'FIDT', 'A M I', Rev: 1, Len: 156
+22:925  0:000    4. DD516078: 'SSDT', 'CPUSSDT', Rev: 2, Len: 252
+22:925  0:000    5. DD516178: 'SSDT', 'AMD ALIB', Rev: 2, Len: 35992
+22:925  0:000    6. DD51EE10: 'SSDT', 'AMD AOD', Rev: 1, Len: 12824
+22:925  0:000    7. DD522028: 'MCFG', 'A M I', Rev: 1, Len: 60
+22:925  0:000    8. DD522068: 'HPET', 'A M I', Rev: 1, Len: 56
+22:925  0:000    9. DD5220A0: 'SSDT', 'FCHZP', Rev: 1, Len: 36
+22:925  0:000    10. DD5220C8: 'UEFI', 'A M I', Rev: 1, Len: 66
+22:925  0:000    11. DD522110: 'VFCT', 'A M I', Rev: 1, Len: 60548
+22:925  0:000    12. DD530D98: 'IVRS', 'AMD IVRS', Rev: 2, Len: 208
+22:925  0:000    13. DD530E68: 'CRAT', 'AMD CRAT', Rev: 1, Len: 3920
+22:925  0:000    14. DD531DB8: 'CDIT', 'AMD CDIT', Rev: 1, Len: 41
+22:925  0:000    15. DD531DE8: 'BGRT', 'A M I', Rev: 1, Len: 56
+22:925  0:000    16. DD531E20: 'SSDT', 'AmdTable', Rev: 1, Len: 7498
+22:925  0:000    17. DD533B70: 'SSDT', 'AMD PT', Rev: 1, Len: 191
+22:925  0:000    18. DD533C30: 'WSMT', 'A M I', Rev: 1, Len: 40
+22:925  0:000    19. DD533C58: 'SSDT', 'AmdTable', Rev: 1, Len: 4271

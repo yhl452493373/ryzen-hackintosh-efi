@@ -1,0 +1,13 @@
+这个用于忽略一些磁盘。比如windows动态磁盘，在mac下无法识别，每次开机都会弹出提示。
+p
+通i过diskutil list找到你想要忽略的磁盘（windows动态磁盘都是WINDOWS_LDM类型），把后面的类似disk0或disk0s1(根据情况来)添加到com.diskeject.plist的ProgramArguments下
+控制台进入到本目录
+依次执行:
+make
+sudo make install
+sudo make start
+
+卸载命令:
+sudo make stop
+sudo make uninstall
+

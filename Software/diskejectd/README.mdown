@@ -1,0 +1,67 @@
+diskejectd
+===========
+
+If your Mac OS X box has volumes that OS X does not recognise, e.g. Linux volumes partitioned with ext4, you will be bugged with a popup stating "The disk you inserted was not readable by this computer" on every boot.
+
+Unfortunately, OS X doesn't read volume names of some (all?) ext4 volumes, nor does it recognise their UUIDs, which makes it _impossible to use /etc/fstab to block the volumes_.
+
+This Launch Daemon resolves the problem by blocking disks by their disk name.
+Disk names have to be specified in `<ProgramArguments>` of `com.diskejectd.plist`.
+It helps you to block/get rid of "the disk you inserted was not readable by this computer" error message in Mac OS X.
+
+Based on original code published at:
+[superuser.com](http://superuser.com/questions/336455/mac-lion-fstab-is-deprecated-so-what-replaces-it-to-prevent-a-partition-from-m/336474#336474)
+
+
+Installation
+------------
+
+1. Get the BSD Disk Name of the disk you want to block with `diskutil list`, e.g. `disk2s2`.
+2. Put disk names you want to block in `<ProgramArguments>` of `com.diskejectd.plist`. You can put as many disks in there as you like. Here's an example for blocking two disks: 
+```xml
+<key>ProgramArguments</key>
+<array>
+    <string>/usr/local/sbin/diskejectd</string>
+    <string>disk2s1</string>
+    <string>disk2s2</string>
+</array>
+```
+
+Finally, compile and install:
+
+1. `make`
+2. `sudo make install`
+3. `sudo make start`
+
+
+Removal
+-------
+
+1. `sudo make stop`
+2. `sudo make uninstall`
+
+License
+-------
+
+Copyright (c) 2012 Adam Strzelecki
+
+Copyright (c) 2014 Andre Richter
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
