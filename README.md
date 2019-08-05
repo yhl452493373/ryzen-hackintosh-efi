@@ -3,14 +3,17 @@
 ---
 
 重要: 不要安装在NVME固态硬盘，也不要在NVME固态硬盘上创建MAC可写的硬盘分区
+
 Important: DO NOT INSTALL ON NVME SSD, ALSO DO NOT CREATE MAC WRITABLE PATITION OF NVME SSD
 
 ACPI/patched/SSDT-NVMe.aml是用来将nvme硬盘（黄色图标的硬盘）转换为正确的pcie设备
+
 ACPI/patched/SSDT-NVMe.aml is used to change nvme ssd which the icon is yellow from External to PCIE SSD 
 
 --- 
 
 R7 1700X，微星X370银环蛇，RX VEGA64 黑苹果可用的EFI
+
 hackintosh efi for ryzen 1700x and msi krait gaming x370
 
 硬件规格:
