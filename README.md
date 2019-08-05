@@ -17,7 +17,8 @@ R7 1700X，微星X370银环蛇，RX VEGA64 黑苹果可用的EFI
 hackintosh efi for ryzen 1700x and msi krait gaming x370
 
 硬件规格:
-this is my hardware
+
+this is my hardware:
 
 * cpu（处理器）: ryzen r7 1700x
 * matherboard（主板）: msi krait gaming x370
