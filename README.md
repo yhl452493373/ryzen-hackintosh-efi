@@ -25,6 +25,7 @@ this is my hardware:
 * graphic card（显卡）:rx vega64
 * hard disk（硬盘）:1 nvme ssd（1个nvme固态硬盘）,1 nvme ssd with pci card（1个通过pcie转接的nvme固态硬盘）,2 sata ssd with windows dynamic disk（2个sata固态硬盘，通过windows创建成了动态磁盘【Windows下的软RAID】）,1 sata ssd (MACOS INSTALL HERE)（1个sata接口的固态硬盘，我的mac安装在这个硬盘）
 * memery(内存):8g x 4
+* wireless network card(无线网卡):bcm943602cdp with pci card(博通943602cdp)
 
 --- 
 
@@ -36,6 +37,7 @@ what work:
 * graphic card(don't need drive)(显卡，我的显卡免驱)
 * power manage under apple menu(shutdown,reboot,sleep,weakup)（苹果菜单下的电源管理正常，包括重启，睡眠，关机，唤醒都正常）
 * all usb port(include usb3.0 and usb2.0)（所有usb接口正常）
+* bcm943602cdp wifi,bluetooth,airdrop(博通943602cdp的wifi,蓝牙,隔空投送都正常)
 
 ---
 
