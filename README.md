@@ -71,3 +71,6 @@ BIOS(if you can find):
 * Boot Mode:UEFI Only
 * CSM:Disable
 
+---
+
+其他黑苹果机型：https://github.com/daliansky/Hackintosh
