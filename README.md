@@ -30,6 +30,7 @@ this is my hardware:
 --- 
 
 正常工作:
+
 what work:
 
 * onboard network(板载网卡)
@@ -43,34 +44,40 @@ what work:
 ---
 
 不工作:
+
 not work:
 
 * power button (when login and press power button to shutdown)（进入系统后按机箱电源键没反应）
 * all softwares which can‘t run with amd cup(photoshop,vmware etc)（所有用到了intel虚拟化技术的软件不能使用，指令集不同）
 * can not show cpu model.(display as unknow,you can modify it by yourself)（CPU型号显示未知，这个可以自定义）
+* memory frequency read error,just a half(内存频率读取有问题，只能读取到运行频率的1/2)
 
 ---
 
 未知：
+
 unknow:
 
-* microphone jack（麦克风，原因同上）
+* microphone jack（no devices）（麦克风接口，没有设备测试）
 
 ---
 
-BIOS设置（如果能找到就改，找不到就算了）：
-BIOS(if you can find):
-* Spread Spectrum:AUTO
-* Serial:Disable
-* Parallel:Disable
-* XHCI:Enable
-* EHCI:Enable
-* Sata Mode:ACHI
-* IDE:Disable
-* IOMMU:Disable
-* Boot Mode:UEFI Only
-* CSM:Disable
+BIOS升级到E7A33AMS.1JM及以上，获取更好体验
 
+BIOS Version is better update to E7A33AMS.1JM or above(the newest bios)
+
+BIOS设置（基于版本 E7A33AMS.1JM）：
+
+BIOS(Base on E7A33AMS.1JM):
+
+Advanced Tab:
+* Integrated Peripherals -> SATA Mode: ACHI Mode
+* USB Configuration -> XHCI Hand-off: Disable
+* USB Configuration -> Legacy USB Support: Auto
+* Super IO Configuration -> Serial Port 0 Configuration -> Serial Port: Disable
+* Super IO Configuration -> Parallel Port 0 Configuration -> Parallel Port: Disable
+* Windows  OS Configuration -> BIOS UEFI/CSM Mode: UEFI
+* Windows  OS Configuration -> Secure Boot: Disable
 ---
 
 其他黑苹果机型：https://github.com/daliansky/Hackintosh
