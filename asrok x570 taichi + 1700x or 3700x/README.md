@@ -1,3 +1,5 @@
+我的测试系统版本：macOS 10.14.6 Mojave
+
 BIOS设置：
 BIOS SETTING:
 
