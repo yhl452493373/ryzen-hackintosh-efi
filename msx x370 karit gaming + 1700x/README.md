@@ -1,3 +1,7 @@
+# 由于我换成了华擎X570+R7 3700X,因此这里不再更新
+
+# because of i have changed my hardware to asrock x570 taichi and r7 3700x,this efi will not be update
+
 # ryzen-hackintosh-efi for macOS mojave 10.14.6(not test on other version)
 
 ---
