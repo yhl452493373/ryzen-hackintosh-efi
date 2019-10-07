@@ -29,7 +29,7 @@
 				<key>FixRTC</key>
 				<false/>
 				<key>FixShutdown</key>
-				<false/>
+				<true/>
 				<key>FixUSB</key>
 				<false/>
 			</dict>
@@ -59,8 +59,6 @@
 		<string>boot.efi</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
-		<key>HibernationFixup</key>
-		<false/>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverHibernate</key>
@@ -102,7 +100,7 @@
 		<key>InjectLAN</key>
 		<false/>
 		<key>LANInjection</key>
-		<false/>
+		<true/>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
@@ -110,7 +108,7 @@
 			<key>FixOwnership</key>
 			<false/>
 			<key>Inject</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 	<key>GUI</key>
@@ -277,7 +275,7 @@
 				H4QAAAAAAA==
 				</data>
 				<key>MatchBuild</key>
-				<string>17G8030</string>
+				<string>17G8030,17G8037</string>
 				<key>MatchOS</key>
 				<string>10.13.6</string>
 				<key>Replace</key>
@@ -319,7 +317,7 @@
 				H4QAAAAAAA==
 				</data>
 				<key>MatchBuild</key>
-				<string>18G95</string>
+				<string>18G95,18G103</string>
 				<key>MatchOS</key>
 				<string>10.14.6</string>
 				<key>Replace</key>
@@ -469,7 +467,7 @@
 				MduAPagMjQAGdVw=
 				</data>
 				<key>MatchBuild</key>
-				<string>17G8030</string>
+				<string>17G8030,17G8037</string>
 				<key>MatchOS</key>
 				<string>10.13.6</string>
 				<key>Replace</key>
@@ -503,7 +501,7 @@
 				MduAPUhpmAAGdVw=
 				</data>
 				<key>MatchBuild</key>
-				<string>18G95</string>
+				<string>18G95,18G103</string>
 				<key>MatchOS</key>
 				<string>10.14.6</string>
 				<key>Replace</key>
@@ -551,7 +549,7 @@
 				jQCJBQwMjQA=
 				</data>
 				<key>MatchBuild</key>
-				<string>17G8030</string>
+				<string>17G8030,17G8037</string>
 				<key>MatchOS</key>
 				<string>10.13.6</string>
 				<key>Replace</key>
@@ -598,7 +596,7 @@
 				Gg==
 				</data>
 				<key>MatchBuild</key>
-				<string>18G95</string>
+				<string>18G95,18G103</string>
 				<key>MatchOS</key>
 				<string>10.14.6</string>
 				<key>Replace</key>
@@ -690,7 +688,7 @@
 				AA==
 				</data>
 				<key>MatchBuild</key>
-				<string>17G8030</string>
+				<string>17G8030,17G8037</string>
 				<key>MatchOS</key>
 				<string>10.13.6</string>
 				<key>Replace</key>
@@ -728,7 +726,7 @@
 				AA==
 				</data>
 				<key>MatchBuild</key>
-				<string>18G95</string>
+				<string>18G95,18G103</string>
 				<key>MatchOS</key>
 				<string>10.14.6</string>
 				<key>Replace</key>
@@ -765,7 +763,7 @@
 				SIkFrKiFAPfDAAABAHQ=
 				</data>
 				<key>MatchBuild</key>
-				<string>17G8030</string>
+				<string>17G8030,17G8037</string>
 				<key>MatchOS</key>
 				<string>10.13.6</string>
 				<key>Replace</key>
@@ -799,7 +797,7 @@
 				SIkFhs+QAPfDAAABAHQ=
 				</data>
 				<key>MatchBuild</key>
-				<string>18G95</string>
+				<string>18G95,18G103</string>
 				<key>MatchOS</key>
 				<string>10.14.6</string>
 				<key>Replace</key>
@@ -851,7 +849,7 @@
 				gz3UlXAAAHQK
 				</data>
 				<key>MatchBuild</key>
-				<string>17G8030</string>
+				<string>17G8030,17G8037</string>
 				<key>MatchOS</key>
 				<string>10.13.6</string>
 				<key>Replace</key>
@@ -885,7 +883,7 @@
 				gz31vXsAAHQK
 				</data>
 				<key>MatchBuild</key>
-				<string>18G95</string>
+				<string>18G95,18G103</string>
 				<key>MatchOS</key>
 				<string>10.14.6</string>
 				<key>Replace</key>
@@ -935,7 +933,7 @@
 		<string>0x67</string>
 		<key>ROM</key>
 		<data>
-		C3nIkdup
+		oeNdkdup
 		</data>
 	</dict>
 	<key>SMBIOS</key>
@@ -951,7 +949,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C027267014NJG36FB</string>
+		<string>C02738200GUJG36CB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -981,7 +979,7 @@
 		<key>ProductName</key>
 		<string>iMacPro1,1</string>
 		<key>SerialNumber</key>
-		<string>C02TX080HX87</string>
+		<string>C02VF01MHX87</string>
 		<key>SmUUID</key>
 		<string>28CE319F-A998-5122-9F0C-7FC88891DBA9</string>
 		<key>Trust</key>
