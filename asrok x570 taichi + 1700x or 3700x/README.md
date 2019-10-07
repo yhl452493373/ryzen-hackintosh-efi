@@ -7,3 +7,5 @@ BIOS SETTING:
 change CSM to disable
 
 超频啥的根据自己需求来改
+
+目前支持：Mojave 10.14.6 (18G84, 18G87, 18G95, 18G103)
