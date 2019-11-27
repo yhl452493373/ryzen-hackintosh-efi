@@ -2,6 +2,7 @@
 + 2019.08.30 R7 3700X+ASROCK X570 TAICHI主板，更新到最新AMD香草配置文件，支持Mojave 10.14.6 (18G84, 18G87, 18G95)
 + 2019.10.09 R7 3700X+ASROCK X570 TAICHI主板，更新到最新AMD香草配置文件，支持Catalina 10.15
 + 2019.11.06 R7 3700X+ASROCK x570 TAICHI主板，更新到AMD香草测试配置文件，支持macOS 10.15.1 (19B88)
++            支持sidecar，具体参考实现方法：https://www.fangf.cc/2019/10/14/noneigpusidecar/#%E5%89%8D%E8%A8%80
 
 # 目前我测试过3个主板组合
 # 我的显卡是RX VEGA64水冷版，内存十铨32G(4G X 8)，无线网卡为BCM943602CDP
