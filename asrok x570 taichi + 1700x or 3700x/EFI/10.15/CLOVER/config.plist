@@ -35,6 +35,23 @@
 			</dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
+			<key>Patches</key>
+			<array>
+				<dict>
+					<key>Comment</key>
+					<string>change PNP0C09 to PNPFFFF (prevent EC)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					QdAMCQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					QdD//w==
+					</data>
+				</dict>
+			</array>
 		</dict>
 		<key>HaltEnabler</key>
 		<true/>
@@ -54,7 +71,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>npci=0x2000 shiki-id=Mac-7BA5B2D9E42DDD94 shikigva=40</string>
+		<string>npci=0x2000 keepsyms=1 shiki-id=Mac-7BA5B2D9E42DDD94 shikigva=40</string>
 		<key>DefaultLoader</key>
 		<string>boot.efi</string>
 		<key>DefaultVolume</key>
@@ -249,26 +266,10 @@
 				6PT1//+c
 				</data>
 				<key>MatchOS</key>
-				<string>10.15.0</string>
+				<string>10.15.x</string>
 				<key>Replace</key>
 				<data>
 				Dx9EAACc
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>algrey - cpu_topology_sort -disable _x86_validate_topology</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				6JP///9Z
-				</data>
-				<key>MatchOS</key>
-				<string>10.15.1</string>
-				<key>Replace</key>
-				<data>
-				Dx9EAABZ
 				</data>
 			</dict>
 			<dict>
@@ -375,7 +376,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>algrey - cpuid_set_cache_info - cpuid 0x8000001D instead 0</string>
+				<string>xlnc - cpuid_set_cache_info - cpuid 0x8000001D instead 0</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -447,26 +448,10 @@
 				gz1rC6AAAA+EpgEAAItdvA==
 				</data>
 				<key>MatchOS</key>
-				<string>10.15.0</string>
+				<string>10.15.x</string>
 				<key>Replace</key>
 				<data>
 				gz1rC6AAAQ+EpgEAAItdvA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>algrey - cpuid_set_cache_info - skip cpuid_cores_per_package test</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				gz0bhaAAAA+EpgEAAItdvA==
-				</data>
-				<key>MatchOS</key>
-				<string>10.15.1</string>
-				<key>Replace</key>
-				<data>
-				gz0bhaAAAQ+EpgEAAItdvA==
 				</data>
 			</dict>
 			<dict>
@@ -637,7 +622,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>algrey - cpuid_set_cpufamily - force CPUFAMILY_INTEL_PENRYN</string>
+				<string>xlnc - cpuid_set_cpufamily - force CPUFAMILY_INTEL_PENRYN</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -767,7 +752,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>algrey - cpuid_set_info - jmp to calculations and set cpuid_cores_per_package</string>
+				<string>xlnc - cpuid_set_info - jmp to calculations and set cpuid_cores_per_package</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -792,7 +777,7 @@
 				6x65NQAAAA8ySMHiIInBSAnRuQEAAQAPRcgPt8HB6RA=
 				</data>
 				<key>MatchOS</key>
-				<string>10.15.x</string>
+				<string>10.15.0,10.15.1</string>
 				<key>Replace</key>
 				<data>
 				uAgAAIAx2zHJMdIPokGJzkUPtvZB/8a4HgAAgDHbMckx
@@ -859,7 +844,23 @@
 				PbxP6ngPhNkBAAA=
 				</data>
 				<key>MatchOS</key>
-				<string>10.15.x</string>
+				<string>10.15.0</string>
+				<key>Replace</key>
+				<data>
+				ZmZmDx+EAAAAAAA=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>xlnc - tsc_init - remove Penryn check to execute default case</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				PbxP6ngPhNkBAAA=
+				</data>
+				<key>MatchOS</key>
+				<string>10.15.1</string>
 				<key>Replace</key>
 				<data>
 				ZmZmDx+EAAAAAAA=
@@ -963,7 +964,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>algrey - tsc_init - grab DID and VID from MSR</string>
+				<string>xlnc - tsc_init - grab DID and VID from MSR</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -1059,26 +1060,10 @@
 				98MAAAEAdA==
 				</data>
 				<key>MatchOS</key>
-				<string>10.15.0</string>
+				<string>10.15.0,10.15.1</string>
 				<key>Replace</key>
 				<data>
 				Zg8fRAAA6w==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>algrey - tsc_init - skip test and go get FSBFrequency</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				98MAAAEAdBYP
-				</data>
-				<key>MatchOS</key>
-				<string>10.15.1</string>
-				<key>Replace</key>
-				<data>
-				Zg8fRAAA6xYP
 				</data>
 			</dict>
 			<dict>
@@ -1201,12 +1186,12 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>algrey - lapic_interrupt - skip checks and prevent panic</string>
+				<string>xlnc - lapic_interrupt - skip checks and prevent panic</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				gz3mJpkAAHQO
+				gz04WaAAAHQO
 				</data>
 				<key>MatchOS</key>
 				<string>10.15.1</string>
@@ -1257,6 +1242,8 @@
 		<string>0x2A</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>MLB</key>
+		<string>C02932270GULNV9CB</string>
 		<key>ROM</key>
 		<data>
 		O9TmVRiI
@@ -1275,7 +1262,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02932270GULNV9CB</string>
+		<string>C029481044NLNV91H</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
