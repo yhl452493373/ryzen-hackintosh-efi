@@ -71,7 +71,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>npci=0x2000 keepsyms=1 shiki-id=Mac-7BA5B2D9E42DDD94 shikigva=40</string>
+		<string>npci=0x2000 shiki-id=Mac-7BA5B2D9E42DDD94 shikigva=40</string>
 		<key>DefaultLoader</key>
 		<string>boot.efi</string>
 		<key>DefaultVolume</key>
@@ -139,11 +139,6 @@
 		<false/>
 		<key>Language</key>
 		<string>zh_CN:0</string>
-		<key>Mouse</key>
-		<dict>
-			<key>Enabled</key>
-			<true/>
-		</dict>
 		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
@@ -1242,27 +1237,25 @@
 		<string>0x2A</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
-		<key>MLB</key>
-		<string>C02932270GULNV9CB</string>
 		<key>ROM</key>
 		<data>
-		O9TmVRiI
+		cIXC1oNc
 		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>08/30/2019</string>
+		<string>10/30/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM191.88Z.F000.B00.1908302134</string>
+		<string>IM191.88Z.F000.B00.1910301745</string>
 		<key>Board-ID</key>
 		<string>Mac-AA95B1DDAB278B95</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C029481044NLNV91H</string>
+		<string>C02915310QXLNV9JA</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -1274,7 +1267,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>1037.0.73.0.0</string>
+		<string>1037.60.50.0.0</string>
 		<key>Family</key>
 		<string>iMac</string>
 		<key>FirmwareFeatures</key>
