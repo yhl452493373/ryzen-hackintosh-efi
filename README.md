@@ -1,4 +1,4 @@
-# 由于更换显卡为RADEON VII后，黑苹果下显卡无法驱动，决定不在折腾了。
+# 3700X+ASROCK X570 TAICHI请移步[https://github.com/yhl452493373/ASROCK-X570-Taichi-Radeon-VII](https://github.com/yhl452493373/ASROCK-X570-Taichi-Radeon-VII)
 
 
 + 2019.08.30 R7 3700X+ASROCK X570 TAICHI主板，修复每次开机音频输出都重置为耳机的问题
